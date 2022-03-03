@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+
+
+<?import javafx.scene.control.Button?>
+
+<GridPane fx:controller="com.example.lab04.HelloController" xmlns:fx="https://javafx.com/fxml" alignment="center" hgap="10" vgap="10" styleClass="root">
+    <padding>
+        <Insets top="25" right="25" left="25" bottom="25" />
+    </padding>
+
+    <Text text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="username" />
+
+    <Text text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="password" />
+
+    <Text text="Full Name:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="fullname" />
+
+    <Text text="E-Mail:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="email" />
+    <Label fx:id="response" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+
+    <Text text="Phone #:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="phone" onAction="#phoneAction"/>
+
+    <Text text="Date of Birth:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="dob" />
+
+
+    <HBox spacing="10" alignment="bottom_right" GridPane.columnIndex="1" GridPane.rowIndex="6">
+        <Button text="Register" onAction="#registerClick"/>
+    </HBox>
+
+</GridPane>
