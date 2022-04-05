@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Summary>
+    <Stat>
+        <Name>fatal_accidents_00_14</Name>
+        <Min>0</Min>
+        <Max>3</Max>
+        <Avg>0</Avg>
+    </Stat>
+    <Stat>
+        <Name>fatalities_00_14</Name>
+        <Min>9</Min>
+        <Max>76</Max>
+        <Avg>3</Avg>
+    </Stat>
+    <Stat>
+        <Name>incidents_00_14</Name>
+        <Min>2</Min>
+        <Max>24</Max>
+        <Avg>2</Avg>
+    </Stat>
+    <Stat>
+        <Name>incidents_total</Name>
+        <Min>11</Min>
+        <Max>82</Max>
+        <Avg>5</Avg>
+    </Stat>
+    <Stat>
+        <Name>fatalities_85_99</Name>
+        <Min>0</Min>
+        <Max>537</Max>
+        <Avg>27</Avg>
+    </Stat>
+    <Stat>
+        <Name>fatal_accidents_85_99</Name>
+        <Min>1</Min>
+        <Max>14</Max>
+        <Avg>1</Avg>
+    </Stat>
+    <Stat>
+        <Name>incidents_85_99</Name>
+        <Min>9</Min>
+        <Max>76</Max>
+        <Avg>3</Avg>
+    </Stat>
+    <avg_incidents_85_99>3</avg_incidents_85_99>
+    <avg_incidents_85_99>2</avg_incidents_85_99>
+</Summary>

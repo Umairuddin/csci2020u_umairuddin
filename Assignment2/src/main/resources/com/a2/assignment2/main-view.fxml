@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="554.0" prefWidth="865.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.a2.assignment2.MainController">
+    <children>
+        <BarChart fx:id="airlineBarChart" layoutX="56.0" layoutY="50.0" prefHeight="454.0" prefWidth="754.0" title="Airline Safety">
+            <xAxis>
+                <CategoryAxis label="Type &amp; Timeline" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Number of Incidents" prefHeight="389.0" prefWidth="40.0" side="LEFT" />
+            </yAxis>
+        </BarChart>
+    </children>
+</AnchorPane>
